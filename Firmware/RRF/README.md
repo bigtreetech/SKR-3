@@ -1,0 +1,3 @@
+* The firmware in this folder can be used directly. You can find the latest version firmware from [here](https://github.com/gloomyandy/RepRapFirmware/releases)
+* `DuetWiFiServer.bin` in `firmware` floder is the firmware for ESP32. You can find the latest version or ESP8266 version firmware from [here](https://github.com/gloomyandy/DuetWiFiSocketServer/releases)
+* You can generate the configuration file of your printer through the online  [Configurator](https://teamgloomy.github.io/Configurator)
