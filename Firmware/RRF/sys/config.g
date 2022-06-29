@@ -35,7 +35,7 @@ M208 X235 Y235 Z270 S0                       ; set axis maxima
 ; Endstops
 M574 X1 S1 P"xstop"                            ; configure switch-type (e.g. microswitch) endstop for low end on X via pin xstop
 M574 Y1 S1 P"ystop"                            ; configure switch-type (e.g. microswitch) endstop for low end on Y via pin ystop
-M574 Y1 S1 P"zstop"                            ; configure switch-type (e.g. microswitch) endstop for low end on Z via pin zstop
+M574 Z1 S1 P"zstop"                            ; configure switch-type (e.g. microswitch) endstop for low end on Z via pin zstop
 
 ; Z-Probe
 M950 S0 C"servo0"                              ; create servo pin 0 for BLTouch
