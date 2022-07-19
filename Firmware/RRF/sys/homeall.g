@@ -10,13 +10,6 @@ G1 H1 Y-360             ; home Y axis
 G1 X5 Y5 F6000          ; go back a few mm
 G1 H1 X-360 F360        ; move slowly to X axis endstop once more (second pass)
 G1 H1 Y-360             ; then move slowly to Y axis endstop
-G1 H1 Z-360 F360        ; move Z down stopping at the endstop
-G90                     ; absolute positioning
-G92 Z0                  ; set Z position to axis minimum (you may want to adjust this)
-
-; Uncomment the following lines to lift Z after probing
-;G91                    ; relative positioning
-;G1 Z5 F100             ; lift Z relative to current position
-;G90                    ; absolute positioning
-
-
+G1 X160 Y160 F6000
+G30
+G1 Z5 
