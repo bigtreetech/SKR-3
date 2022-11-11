@@ -1,5 +1,8 @@
 # [View English version](./README.md)
 
+### review
+　You can find a complete review with detailed features of our electronics in [Spanish](https://3dwork.io/skr-3-re-evolucion/) and [English](https://3dwork.io/en/skr-3-re-evolucion/) on [3dwork.io](https://3dwork.io/).
+
 # SKR 3
 ## 硬件参数
 * 微处理器：ARM Cortex-M7 STM32H743VI 480MHz 带 FDCAN 总线
